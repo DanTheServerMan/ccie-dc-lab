@@ -1,7 +1,7 @@
 annotations: []
 nodes:
   - boot_disk_size: null
- configuration: |
+configuration: |
    hostname spine-1
    # workaround for booting to loader> prompt
    echo 'from cli import cli' > set_boot.py
@@ -45,19 +45,19 @@ nodes:
     description "Connection to leaf3"
     switchport mode trunk
     switchport trunk allowed vlan 100
- cpu_limit: null
- cpus: null
- data_volume: null
- hide_links: false
- id: n0
- image_definition: null
- label: spine-1
- node_definition: nxosv9000
- ram: null
- tags: []
- x: -320
- y: 400
- interfaces:
+cpu_limit: null
+cpus: null
+data_volume: null
+hide_links: false
+id: n0
+image_definition: null
+label: spine-1
+node_definition: nxosv9000
+ram: null
+tags: []
+x: -320
+y: 400
+interfaces:
    - id: i0
      label: Loopback0
      type: loopback
