@@ -1,7 +1,7 @@
 annotations: []
 nodes:
   - boot_disk_size: null
-	configuration: |
+configuration: |
   	hostname spine-1
   	# workaround for booting to loader> prompt
   	echo 'from cli import cli' > set_boot.py
